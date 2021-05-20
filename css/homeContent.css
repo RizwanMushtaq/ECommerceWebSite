@@ -1,0 +1,27 @@
+.homeContent{
+    background-color: lightgreen;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.homeContent .homeProductDiv{
+    width: 12rem;
+    height: 15rem;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeContent .homeProductDiv .homeProductDivInner{
+    width: 10rem;
+    height: 12rem;
+    background-color: yellow;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.homeContent .homeProductDiv .homeProductDivInner h1{
+    font-size: 2rem;
+}
