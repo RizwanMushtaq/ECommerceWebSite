@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/homeContent.css">
 
-    <script src="javascript/navButtonsfunction.js" defer></script>
+    <script src="javascript/classes.js" defer></script>
+    <script src="javascript/updateContentSectionFunctions.js" defer></script>
     <script src="javascript/main.js" defer></script>
     
 </head>
@@ -17,24 +18,45 @@
     <div class="fullscreen">
         <div class="header">
             <div class="logoImage">
-                <img src="images/logo.svg.svg" alt="logo">
+                <img src="images/logo.svg.svg" alt="logo" onclick="showHomeContent()">
             </div>
             <h1>LiYa Fashion</h1>
             <div class="nav">
-                <button class="navButton homeButton">Home</button>
-                <button class="navButton jackenButton">Jacken</button>
-                <button class="navButton hamdenButton">Hamden</button>
-                <button class="navButton hosenButton">Hosen</button>
-                <button class="navButton schuheButton">Schuhe</button>
-                <button class="navButton hüteButton">Hüte</button>
-                <button class="navButton ImpressumButton">Impressum</button>
+                <button class="navButton homeButton" onclick="showHomeContent()">Home</button>
+                <button class="navButton jackenButton" onclick="showJackenContent()">Jacken</button>
+                <button class="navButton hamdenButton" onclick="showHamdenContent()">Hamden</button>
+                <button class="navButton hosenButton" onclick="showHosenContent()">Hosen</button>
+                <button class="navButton schuheButton" onclick="showSchuheContent()">Schuhe</button>
+                <button class="navButton hüteButton" onclick="showHüteContent()">Hüte</button>
+                <button class="navButton ImpressumButton" onclick="showImpressumContent()">Impressum</button>
             </div>
         </div>
 
         <div class="contentArea homeContent">
-            <div class="homeProductDiv homeJackenDiv">
-                <div class="homeProductDivInner homeJackenDivInner">
-                    <h1>Jacken</h1>
+                <div class="homeProductDiv homeJackenDiv" onclick="showJackenContent()">
+                    <div class="homeProductDivInner homeJackenDivInner" onclick="showJackenContent()">
+                        <h1 onclick="showJackenContent()">Jacken</h1>
+                    </div>
+                </div>
+            
+            <div class="homeProductDiv homeHamdenDiv" onclick="showHamdenContent()">
+                <div class="homeProductDivInner homeHamdenDivInner" onclick="showHamdenContent()">
+                    <h1 onclick="showHamdenContent()">Hamden</h1>
+                </div>
+            </div>
+            <div class="homeProductDiv homeHosenDiv" onclick="showHosenContent()">
+                <div class="homeProductDivInner homeHosenDivInner" onclick="showHosenContent()">
+                    <h1 onclick="showHosenContent()">Hosen</h1>
+                </div>
+            </div>
+            <div class="homeProductDiv homeSchuheDiv" onclick="showSchuheContent()">
+                <div class="homeProductDivInner homeSchuheDivInner" onclick="showSchuheContent()">
+                    <h1 onclick="showSchuheContent()">Schuhe</h1>
+                </div>
+            </div>
+            <div class="homeProductDiv homeHüteDiv" onclick="showHüteContent()">
+                <div class="homeProductDivInner homeHüteDivInner" onclick="showHüteContent()">
+                    <h1 onclick="showHüteContent()">Hüte</h1>
                 </div>
             </div>
         </div>

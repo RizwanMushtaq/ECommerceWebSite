@@ -1,3 +1,4 @@
+//This function is not needed any more as i am using element onclick property in html
 function updateOnNavButtonClick(){
     //Event listener to listen button click for menu buttons
     document.querySelectorAll(".navButton").forEach(function(item){
