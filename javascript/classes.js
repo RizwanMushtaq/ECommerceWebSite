@@ -8,7 +8,7 @@ class Jacket {
         this.price = price;
     }
 }
-class Shirt {
+class Hemd {
     constructor(id, category, name, imageUrl, description, price){
         this.id = id;
         this.category = category;
@@ -18,7 +18,7 @@ class Shirt {
         this.price = price;
     }
 }
-class Trouser {
+class Hose {
     constructor(id, category, name, imageUrl, description, price){
         this.id = id;
         this.category = category;
@@ -28,7 +28,7 @@ class Trouser {
         this.price = price;
     }
 }
-class Shoe {
+class Schuh {
     constructor(id, category, name, imageUrl, description, price){
         this.id = id;
         this.category = category;
@@ -38,7 +38,7 @@ class Shoe {
         this.price = price;
     }
 }
-class Hat {
+class Hut {
     constructor(id, category, name, imageUrl, description, price){
         this.id = id;
         this.category = category;

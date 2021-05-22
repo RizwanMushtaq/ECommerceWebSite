@@ -99,7 +99,20 @@ html{
     grid-column: 3/19;
     grid-row: 2/3;
     display: none;
+    flex-direction: column;
 }
+.ImpressumContent div{
+    padding: 1rem 0 0 1rem;
+}
+.ImpressumContent div h1{
+    margin: 2rem 0 0.5rem 0;
+}
+.individualProduct{
+    grid-column: 3/19;
+    grid-row: 2/3;
+    display: none;
+}
+
 /*Styling of Footer*/
 .footer{
     grid-column: 1/21;

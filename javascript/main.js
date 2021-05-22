@@ -1,3 +1,7 @@
 window.onload = function(){
-    createContent();
+    createJackeContent();
+    createHemdContent();
+    createHoseContent();
+    createschuhContent();
+    createhutContent();
 }

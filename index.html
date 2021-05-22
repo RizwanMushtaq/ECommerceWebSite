@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="css/createContent.css">
 
     <script src="javascript/classes.js" defer></script>
-    <script src="javascript/createContent.js" defer></script>
+    <script src="javascript/createJackeContent.js" defer></script>
+    <script src="javascript/createHemdContent.js" defer></script>
+    <script src="javascript/createHoseContent.js" defer></script>
+    <script src="javascript/createSchuhContent.js" defer></script>
+    <script src="javascript/createHutContent.js" defer></script>
     <script src="javascript/updateContentSectionFunctions.js" defer></script>
     <script src="javascript/main.js" defer></script>
     
@@ -26,7 +30,7 @@
             <div class="nav">
                 <button class="navButton homeButton" onclick="showHomeContent()">Home</button>
                 <button class="navButton jackenButton" onclick="showJackenContent()">Jacken</button>
-                <button class="navButton hamdenButton" onclick="showHamdenContent()">Hamden</button>
+                <button class="navButton hamdenButton" onclick="showHamdenContent()">Hemden</button>
                 <button class="navButton hosenButton" onclick="showHosenContent()">Hosen</button>
                 <button class="navButton schuheButton" onclick="showSchuheContent()">Schuhe</button>
                 <button class="navButton hüteButton" onclick="showHüteContent()">Hüte</button>
@@ -43,7 +47,7 @@
             
             <div class="homeProductDiv homeHamdenDiv" onclick="showHamdenContent()">
                 <div class="homeProductDivInner homeHamdenDivInner" onclick="showHamdenContent()">
-                    <h1 onclick="showHamdenContent()">Hamden</h1>
+                    <h1 onclick="showHamdenContent()">Hemden</h1>
                 </div>
             </div>
             <div class="homeProductDiv homeHosenDiv" onclick="showHosenContent()">
@@ -62,28 +66,55 @@
                 </div>
             </div>
         </div>
+
         <div class="contentArea jackenContent productsPage">
             <h1>Jacken</h1>
             <div class="jackenProductContent productsPageList"></div>
         </div>
         <div class="contentArea hamdenContent productsPage">
-            <h1>Hamden</h1>
-            <div class="jackenProductContent productsPageList"></div>
+            <h1>Hemden</h1>
+            <div class="hamdenProductContent productsPageList"></div>
         </div>
         <div class="contentArea hosenContent productsPage">
             <h1>Hosen</h1>
-            <div class="jackenProductContent productsPageList"></div>
+            <div class="hosenProductContent productsPageList"></div>
         </div>
         <div class="contentArea schuheContent productsPage">
             <h1>Schuhe</h1>
-            <div class="jackenProductContent productsPageList"></div>
+            <div class="schuheProductContent productsPageList"></div>
         </div>
         <div class="contentArea hüteContent productsPage">
             <h1>Hüte</h1>
-            <div class="jackenProductContent productsPageList"></div>
+            <div class="hüteProductContent productsPageList"></div>
         </div>
-        <div class="contentArea ImpressumContent productsPage">Impressum Content</div>
+        <div class="contentArea ImpressumContent productsPage">
+            <div>
+                <h1>KONTAKT</h1>
+                <p>Du kannst dich jederzeit innerhalb unserer Öffnungszeiten an uns wenden.</p>
+                <h1>ÖFFNUNGSZEITEN</h1>
+                <p>Montag-Samstag 8 - 21 Uhr</p>
+                <h1>TELEFON</h1>
+                <p>0800-123456 (Kostenfrei für Deutschland)</p>
+                <h1>ANSCHRIFT</h1>
+                <p> LiYa Fashion <br>
+                    Königstraße 34 <br>
+                    70173 Stuttgart</p>
+            </div>
+        </div>
 
+        <div class="contentArea individualProduct">
+            <h1 class="individualProductName"></h1>
+            <p class="individualProductDescription"></p>
+            <div class="individualProductImageContainer">
+                <div class="individualProductImageDiv">
+                    <img class="individualProductImage" src="" alt="">
+                </div>
+            </div>
+            <div class="individualProductInnerDiv">
+                <p class="individualProductNameAndPrice"></p>
+            </div>
+        </div>
+        
         <div class="footer">©2021 by Oezge Demirkan</div>
     </div>
 </body>
