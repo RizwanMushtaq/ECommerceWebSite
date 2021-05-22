@@ -9,7 +9,7 @@ function showHomeContent(){
 }
 function showJackenContent(){
     document.querySelector(".homeContent").style.display = "none";
-    document.querySelector(".jackenContent").style.display = "flex";
+    document.querySelector(".jackenContent").style.display = "grid";
     document.querySelector(".hamdenContent").style.display = "none";
     document.querySelector(".hosenContent").style.display = "none";
     document.querySelector(".schuheContent").style.display = "none";

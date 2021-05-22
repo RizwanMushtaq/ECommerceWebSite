@@ -8,4 +8,19 @@ function createContent(){
 
     let jacketArray = [jacke01, jacke02, jacke03, jacke04, jacke05, jacke06];
     
+    if(jacketArray.length != 0){
+        console.log("jacket array available");
+        for(let i=0; i<jacketArray.length; i++){
+           //Call function to create product div
+           createProductDiv();
+        }
+    }
+}
+
+createProductDiv = function(){
+    let productContainer = document.createElement("div");
+    productContainer.setAttribute("class", "productContainer");
+    let jackenProductContent = document.querySelector(".jackenProductContent");
+    jackenProductContent.appendChild(productContainer);
+
 }

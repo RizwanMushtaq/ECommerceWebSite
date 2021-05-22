@@ -1,0 +1,35 @@
+.productsPage{
+        background-color: #959595;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2rem 1fr;
+}
+.productsPage h1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.productsPage .productsPageList{
+    grid-column: 1/2;
+    grid-row: 2/3; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+
+.productContainer{
+    width: 12rem;
+    height: 20rem;
+    margin: 0.5rem;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    transform: scale(1) perspective(1000px);
+}
+.productContainer:hover{
+    transform: scale(1.1) perspective(1000px);
+    z-index: 1;
+    cursor: pointer;
+}
