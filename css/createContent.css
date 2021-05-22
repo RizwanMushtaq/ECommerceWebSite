@@ -23,13 +23,30 @@
     margin: 0.5rem;
     background-color: lightsteelblue;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
     transition: transform 0.5s;
     transform: scale(1) perspective(1000px);
 }
+
 .productContainer:hover{
     transform: scale(1.1) perspective(1000px);
     z-index: 1;
     cursor: pointer;
 }
+.productContainer div{
+    width: 12rem;
+    height: 16rem;
+}
+.productContainer div img{
+    width: 100%;
+    height: 100%;
+}
+.productContainer h1{
+   font-size: 1rem;
+   padding: 0.2rem;
+}
+.productContainer p{
+    font-size: 0.8rem;
+    padding: 0 0.2rem 0rem 0.2rem;
+ }
