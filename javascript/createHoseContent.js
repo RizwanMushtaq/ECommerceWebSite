@@ -1,10 +1,10 @@
 function createHoseContent(){
-    let hose01 = new Hose("hose01", "hose", "Blue hose", "images/hose01.jpg", "A Blue hose woven from the finest yarns", "180");
-    let hose02 = new Hose("hose02", "hose", "Dark Blue hose", "images/hose02.jpg", "A Dark Blue hose woven from the finest yarns", "250");
-    let hose03 = new Hose("hose03", "hose", "Light Blue hose", "images/hose03.jpg", "A Light Blue hose woven from the finest yarns", "100");
-    let hose04 = new Hose("hose04", "hose", "Open Blue hose", "images/hose04.jpg", "A Open Blue hose woven from the finest yarns", "120");
-    let hose05 = new Hose("hose05", "hose", "Casual Blue hose", "images/hose05.jpg", "A Casual Blue hose woven from the finest yarns", "130");
-    let hose06 = new Hose("hose06", "hose", "Hard Blue hose", "images/hose06.jpg", "A Hard Blue hose woven from the finest yarns", "150");
+    let hose01 = new Product("hose01", "hose", "Blue hose", "images/hose01.jpg", "A Blue hose woven from the finest yarns", "180");
+    let hose02 = new Product("hose02", "hose", "Dark Blue hose", "images/hose02.jpg", "A Dark Blue hose woven from the finest yarns", "250");
+    let hose03 = new Product("hose03", "hose", "Light Blue hose", "images/hose03.jpg", "A Light Blue hose woven from the finest yarns", "100");
+    let hose04 = new Product("hose04", "hose", "Open Blue hose", "images/hose04.jpg", "A Open Blue hose woven from the finest yarns", "120");
+    let hose05 = new Product("hose05", "hose", "Casual Blue hose", "images/hose05.jpg", "A Casual Blue hose woven from the finest yarns", "130");
+    let hose06 = new Product("hose06", "hose", "Hard Blue hose", "images/hose06.jpg", "A Hard Blue hose woven from the finest yarns", "150");
 
     let hoseArray = [hose01, hose02, hose03, hose04, hose05, hose06];
     

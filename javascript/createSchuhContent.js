@@ -1,10 +1,10 @@
 function createschuhContent(){
-    let schuh01 = new Schuh("schuh01", "schuh", "Blue schuh", "images/schuh01.jpg", "A Blue schuh woven from the finest yarns", "180");
-    let schuh02 = new Schuh("schuh02", "schuh", "Dark Blue schuh", "images/schuh02.jpg", "A Dark Blue schuh woven from the finest yarns", "250");
-    let schuh03 = new Schuh("schuh03", "schuh", "Light Blue schuh", "images/schuh03.jpg", "A Light Blue schuh woven from the finest yarns", "100");
-    let schuh04 = new Schuh("schuh04", "schuh", "Open Blue schuh", "images/schuh04.jpg", "A Open Blue schuh woven from the finest yarns", "120");
-    let schuh05 = new Schuh("schuh05", "schuh", "Casual Blue schuh", "images/schuh05.jpg", "A Casual Blue schuh woven from the finest yarns", "130");
-    let schuh06 = new Schuh("schuh06", "schuh", "Hard Blue schuh", "images/schuh06.jpg", "A Hard Blue schuh woven from the finest yarns", "150");
+    let schuh01 = new Product("schuh01", "schuh", "Blue schuh", "images/schuh01.jpg", "A Blue schuh woven from the finest yarns", "180");
+    let schuh02 = new Product("schuh02", "schuh", "Dark Blue schuh", "images/schuh02.jpg", "A Dark Blue schuh woven from the finest yarns", "250");
+    let schuh03 = new Product("schuh03", "schuh", "Light Blue schuh", "images/schuh03.jpg", "A Light Blue schuh woven from the finest yarns", "100");
+    let schuh04 = new Product("schuh04", "schuh", "Open Blue schuh", "images/schuh04.jpg", "A Open Blue schuh woven from the finest yarns", "120");
+    let schuh05 = new Product("schuh05", "schuh", "Casual Blue schuh", "images/schuh05.jpg", "A Casual Blue schuh woven from the finest yarns", "130");
+    let schuh06 = new Product("schuh06", "schuh", "Hard Blue schuh", "images/schuh06.jpg", "A Hard Blue schuh woven from the finest yarns", "150");
 
     let schuhArray = [schuh01, schuh02, schuh03, schuh04, schuh05, schuh06];
     

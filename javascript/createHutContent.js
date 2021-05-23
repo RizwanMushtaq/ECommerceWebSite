@@ -1,10 +1,10 @@
 function createhutContent(){
-    let hut01 = new Hut("hut01", "hut", "Blue hut", "images/hut01.jpg", "A Blue hut woven from the finest yarns", "80");
-    let hut02 = new Hut("hut02", "hut", "Dark Blue hut", "images/hut02.jpg", "A Dark Blue hut woven from the finest yarns", "50");
-    let hut03 = new Hut("hut03", "hut", "Light Blue hut", "images/hut03.jpg", "A Light Blue hut woven from the finest yarns", "10");
-    let hut04 = new Hut("hut04", "hut", "Open Blue hut", "images/hut04.jpg", "A Open Blue hut woven from the finest yarns", "20");
-    let hut05 = new Hut("hut05", "hut", "Casual Blue hut", "images/hut05.jpg", "A Casual Blue hut woven from the finest yarns", "10");
-    let hut06 = new Hut("hut06", "hut", "Hard Blue hut", "images/hut06.jpg", "A Hard Blue hut woven from the finest yarns", "50");
+    let hut01 = new Product("hut01", "hut", "Blue hut", "images/hut01.jpg", "A Blue hut woven from the finest yarns", "80");
+    let hut02 = new Product("hut02", "hut", "Dark Blue hut", "images/hut02.jpg", "A Dark Blue hut woven from the finest yarns", "50");
+    let hut03 = new Product("hut03", "hut", "Light Blue hut", "images/hut03.jpg", "A Light Blue hut woven from the finest yarns", "10");
+    let hut04 = new Product("hut04", "hut", "Open Blue hut", "images/hut04.jpg", "A Open Blue hut woven from the finest yarns", "20");
+    let hut05 = new Product("hut05", "hut", "Casual Blue hut", "images/hut05.jpg", "A Casual Blue hut woven from the finest yarns", "10");
+    let hut06 = new Product("hut06", "hut", "Hard Blue hut", "images/hut06.jpg", "A Hard Blue hut woven from the finest yarns", "50");
 
     let hutArray = [hut01, hut02, hut03, hut04, hut05, hut06];
     

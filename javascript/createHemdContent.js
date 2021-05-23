@@ -1,10 +1,10 @@
 function createHemdContent(){
-    let hemd01 = new Hemd("hemd01", "hemd", "Blue hemd", "images/hemd01.jpg", "A Blue hemd woven from the finest yarns", "180");
-    let hemd02 = new Hemd("hemd02", "hemd", "Dark Blue hemd", "images/hemd02.jpg", "A Dark Blue hemd woven from the finest yarns", "250");
-    let hemd03 = new Hemd("hemd03", "hemd", "Light Blue hemd", "images/hemd03.jpg", "A Light Blue hemd woven from the finest yarns", "100");
-    let hemd04 = new Hemd("hemd04", "hemd", "Open Blue hemd", "images/hemd04.jpg", "A Open Blue hemd woven from the finest yarns", "120");
-    let hemd05 = new Hemd("hemd05", "hemd", "Casual Blue hemd", "images/hemd05.jpg", "A Casual Blue hemd woven from the finest yarns", "130");
-    let hemd06 = new Hemd("hemd06", "hemd", "Hard Blue hemd", "images/hemd06.jpg", "A Hard Blue hemd woven from the finest yarns", "150");
+    let hemd01 = new Product("hemd01", "hemd", "Blue hemd", "images/hemd01.jpg", "A Blue hemd woven from the finest yarns", "180");
+    let hemd02 = new Product("hemd02", "hemd", "Dark Blue hemd", "images/hemd02.jpg", "A Dark Blue hemd woven from the finest yarns", "250");
+    let hemd03 = new Product("hemd03", "hemd", "Light Blue hemd", "images/hemd03.jpg", "A Light Blue hemd woven from the finest yarns", "100");
+    let hemd04 = new Product("hemd04", "hemd", "Open Blue hemd", "images/hemd04.jpg", "A Open Blue hemd woven from the finest yarns", "120");
+    let hemd05 = new Product("hemd05", "hemd", "Casual Blue hemd", "images/hemd05.jpg", "A Casual Blue hemd woven from the finest yarns", "130");
+    let hemd06 = new Product("hemd06", "hemd", "Hard Blue hemd", "images/hemd06.jpg", "A Hard Blue hemd woven from the finest yarns", "150");
 
     let hemdArray = [hemd01, hemd02, hemd03, hemd04, hemd05, hemd06];
     
